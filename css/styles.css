@@ -386,7 +386,13 @@ padding: 96px 0;
 }
 /*=======================================*/
 .hero-zag{
-    width: 216px;
+
+    font-weight: 700;
+
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+
     font-size: 36px;
     color: white;
     margin-bottom: 72px;
@@ -517,6 +523,8 @@ padding: 96px 0;
 
 /*=======================================*/
 .feature-text{
+
+    color: #434455;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -900,8 +908,10 @@ padding: 96px 0;
     margin-right: auto;
 }
 /*=======================================*/
+@media(max-width:767px){
 .footer-social {
-
+margin-top: 72px;
+}
 }
 @media (min-width: 768px) {
     margin-top: 0;
