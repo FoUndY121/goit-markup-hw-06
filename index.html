@@ -472,30 +472,34 @@
                 </li>
             </ul>
         </div>
-        <div class="footer-form-email">
-            <p class="subscribe">Subscribe</p>
-            <form class="footer-form">
-                <!-- Связываем <label> с <input> через атрибут for и id -->
-
-                   <label class="footer-form-label" for="user-email">
-                   <input
-                           name="email"
-                           class="footer-input-email"
-                           id="user-email"
-                           type="email"
-                           placeholder="E-mail"
-                   />
-               </label>
-                   <button type="submit" class="footer-button">
-                       Subscribe
-                       <svg class="icon-footer" width="24" height="24">
-                           <use href="./images/icons.svg#icon-Frame"></use>
-                       </svg>
-                   </button>
-
+        <!-- Subscribe item -->
+        <div class="subscribe-item">
+            <p class="text-subscribe">Subscribe</p>
+            <form class="form" name="email">
+                <label class="form-label">
+                    <input
+                            class="email-input"
+                            type="email"
+                            name="e-mail"
+                            placeholder="E-mail"
+                    />
+                </label>
+                <button class="form-button" type="submit">
+                    Subscribe
+                    <svg
+                            class="footer-icon-telegram"
+                            fill="none"
+                            width="24"
+                            height="24"
+                    >
+                        <use href="./images/icons.svg#icon-telegram"></use>
+                    </svg>
+                </button>
             </form>
         </div>
     </div>
+
+
 </footer>
 <!-- Modal Window -->
 <!--<div class="backdrop is-open">-->
